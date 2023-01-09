@@ -11,8 +11,9 @@ h1 {
     color: rgb(244, 224, 6);
 }
 
-section {
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .top-banner {
@@ -30,7 +31,7 @@ section {
 }
 
 .half-width img {
-    width: 70%;
+    width: 50%;
 }
 
 .link-button {
@@ -40,4 +41,9 @@ section {
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
 }
